@@ -6,9 +6,7 @@ const nextConfig = {
     distDir: 'out',
   
     // Example: Adding environment variables
-    env: {
-      API_URL: process.env.API_URL,
-    },
+   
  
     // Example: Configuring the webpack build
     webpack: (config, { dev, isServer }) => {
